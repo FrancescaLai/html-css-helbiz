@@ -16,6 +16,15 @@ h1{
   font-weight: bold;
 }
 
+h3{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.box-3 h4{
+  font-weight: bold;
+}
+
 /* Header */
 
 header{
@@ -23,6 +32,7 @@ header{
 }
 
 .header_top{
+  background-color: #fff;
   height: 60px;
   line-height: 60px;
   position: fixed;
@@ -85,20 +95,12 @@ header{
   width: 100%;
 }
 
-@media screen and (max-width: 992px){
-  h1{
-    font-size: 70px;
-  }
-}
-
-@media screen and (max-width: 768px){
-  h1{
-    font-size: 50px;
-  }
-}
 /* /Header */
 
 /* Main */
+
+/* 3 Col */
+
 .col_product{
   background-color: #FAFAFA;
   padding: 45px 20px;
@@ -115,4 +117,64 @@ header{
 
 .product_img{
   height: 280px;
+}
+
+/* /3 Col */
+
+/* Umarell */
+
+.umarell{
+  margin-top: 30px;
+  height: 420px;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+}
+
+.small_container{
+  width: 80%;
+  margin: auto;
+  padding-top: 140px;
+}
+
+.box{
+  display: inline-block;
+  width: calc( 100% / 3);
+  position: relative;
+}
+
+.box-1{
+  right: calc( 100% / 3);
+  vertical-align:bottom;
+  padding-bottom: 70px;
+}
+
+.box-2{
+  left: calc( 100% / 3);
+  vertical-align: bottom;
+}
+
+.box-3{
+  vertical-align: bottom;
+  padding-bottom: 70px;
+}
+
+.box img{
+  height: 500px;
+}
+
+/* /Umarell */
+/* /Main */
+
+
+
+@media screen and (max-width: 992px){
+  h1{
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 50px;
+  }
 }
