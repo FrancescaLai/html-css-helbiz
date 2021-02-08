@@ -8,6 +8,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
 h1{
@@ -98,3 +99,20 @@ header{
 /* /Header */
 
 /* Main */
+.col_product{
+  background-color: #FAFAFA;
+  padding: 45px 20px;
+}
+
+.product_logo{
+  height: 20px;
+}
+
+.col_product p,
+.col_product a {
+  margin-top: 20px;
+}
+
+.product_img{
+  height: 280px;
+}
