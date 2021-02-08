@@ -11,11 +11,11 @@ body{
 }
 
 h1{
-  font-size: 110px;
+  font-size: 90px;
   font-weight: bold;
 }
 
-/* header */
+/* Header */
 
 header{
   padding-top: 20px;
@@ -64,3 +64,14 @@ header{
   border-style: none;
   padding: 8px 20px;
 }
+
+.btn_mobile{
+  background-color: transparent;
+}
+
+.hero .img{
+  width: 100%;
+}
+/* /Header */
+
+/* Main */
